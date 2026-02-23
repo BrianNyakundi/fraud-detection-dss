@@ -1,0 +1,26 @@
+fraud-detection-system/
+├── backend/
+│   ├── app.py
+│   ├── models/
+│   │   └── transaction.py
+│   ├── services/
+│   │   ├── fraud_detector.py
+│   │   └── risk_analyzer.py
+│   └── requirements.txt
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── TransactionMap.js
+│   │   │   ├── HeatMap.js
+│   │   │   └── AlertPanel.js
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   └── package.json
+└── database/
+    └── init_db.py
